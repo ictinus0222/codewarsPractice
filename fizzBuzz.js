@@ -9,12 +9,12 @@ and if the number is divisible by 3 and 5 log "fizzbuzz" instead of that number.
 
 function fizzBuzz(num){
     for (let i = 0; i < num; i++) {
-        if (i % 3 == 0) {
-            console.log("fizz");
+        if (i % 3 == 0 || i % 5 == 0) {
+            console.log("fizzBuzz");
         } else if (i % 5 == 0) {
             console.log("buzz");
-        } else if(i % 3 == 0 || i % 5 == 0) {
-            console.log("fizzbuzz");
+        } else if(i % 3 == 0 ||) {
+            console.log("fizz");
         } else {
             console.log(i);
         }
